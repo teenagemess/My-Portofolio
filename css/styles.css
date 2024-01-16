@@ -111,7 +111,7 @@ body {
 .parallax-image {
   opacity: 0;
   transform: translateX(-50%);
-  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  transition: transform 1s ease-out, opacity 0.5s ease-out;
 }
 
 .parallax-show {
@@ -123,7 +123,7 @@ body {
 .parallax-container {
 opacity: 0;
 transform: translateX(50%);
-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+transition: transform 1s ease-out, opacity 0.5s ease-out;
 }
 
 /* Class to show the parallax container */
@@ -11064,7 +11064,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #f3f3f3;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
