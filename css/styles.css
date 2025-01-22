@@ -136,7 +136,7 @@ iframe::-webkit-scrollbar-thumb:hover {
 
 .parallax-image {
   opacity: 0;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   transition: transform 1s ease-out, opacity 0.5s ease-out;
 }
 
@@ -147,8 +147,8 @@ iframe::-webkit-scrollbar-thumb:hover {
 
 /* Initial styling for the parallax container */
 .parallax-container {
-opacity: 0;
-transform: translateX(50%);
+opacity: 0.1;
+/* transform: translateX(50%); */
 transition: transform 1s ease-out, opacity 0.5s ease-out;
 }
 
